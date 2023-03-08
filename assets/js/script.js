@@ -38,6 +38,10 @@ console.log(long)
     }
 };
 
+localStorage.setItem("previous-search", JSON.stringify());
+    
+localStorage.getItem("previous-search");
+
 document.querySelector("#search-button")
 .addEventListener("click", function () {
 weather.search();
@@ -55,19 +59,3 @@ function forecastApi () {
 }
 
 
-
-
-function savedInput () {
-
-searchButton.addEventListener("click", function(event) {
-    event.preventDefault();
-    
-    var previousSearch = {
-      search: previousSearch.value
-    
-    };
-    
-    localStorage.setItem("previous-search", JSON.stringify(previousSearch));
-    
-    });
-}

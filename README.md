@@ -9,7 +9,9 @@ What I did was created a container with a search field that would also hold all 
 
 Then I set up the function so when the api is called it goes through the DOM and selects the specific elements in the HTML.
 
-For this application I was able to display the current weather but not
+For this application I was able to display the current weather but not the forecast. What I will do is go back and adjust it so that the forecast is displayed and functions properly.
+
+
 
 
 
@@ -17,20 +19,22 @@ For this application I was able to display the current weather but not
 ## links
 
 Deployed Site:
-
+https://christianmsm.github.io/06-Server-Side-API-Weather-Dashboard-Challenge/
 
 GitHub Repo:
-
+https://github.com/Christianmsm/06-Server-Side-API-Weather-Dashboard-Challenge
 
 Screenshot:
-
+<img src="assets/06-weather-dashboard-screenshot.png">
 
 
 
 
 ## Credits
 
+https://openweathermap.org/forecast5#5days
 
+https://unsplash.com/developers
 
 
 ## License
