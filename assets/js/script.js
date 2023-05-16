@@ -52,7 +52,6 @@ function getWeather() {
         localStorage.setItem("savedCities", JSON.stringify(Object.keys(savedCities)));
     }
 
-    // resets the search bar back to the placeholder city name
     citySearchEl.value = '';
     citySearchEl.placeholder = 'Columbus';
 
