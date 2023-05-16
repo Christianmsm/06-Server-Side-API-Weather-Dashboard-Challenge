@@ -6,12 +6,12 @@ body {
 header {
     display: flex;
     justify-content: center;
-    color: #b0b0b0;
+    color: #414141;
 
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 5.5rem;
 }
 
 section {
@@ -55,14 +55,30 @@ input.search-bar {
 
 button {
     margin: 0.5em;
-    border-radius: 50%;
-    border: none;
     height: 46px;
-    width: 46px;
-    outline: none;
-    background:rgb(96, 96, 96);
-    color: white;
-    cursor: pointer;
-    transition: 0.2s ease-in-out;
 }
 
+.city-history {
+    background:rgba(96, 96, 96, 0.473);
+}
+
+#city-search {
+margin: 2.5%;
+background:rgba(255, 255, 255, 0.473)
+}
+
+#search-btn {
+    background:rgba(96, 96, 96, 0.473);
+}
+
+#delete-btn {
+    background:rgba(96, 96, 96, 0.473);
+}
+
+#today-container {
+    font-size: 120%;
+}
+
+#fiveday-forecast {
+font-size: 130%;
+}
