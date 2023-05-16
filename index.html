@@ -10,36 +10,62 @@
     <title>Weather Dashboard</title>
 </head>
 <body>
-    <!-- <img src="assets/images/background-image.jpg" class="bg"/> -->
     <header>
         <h1>Weather Dashboard</h1>
     </header>
 
-
-    <aside>
-        <div class="weather-container">
-            
-            <div class="weather">
-                <div class="search"></div>
-        <input type="text" class="search-bar" placeholder="Location">
-        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
-        <button id="search-button"></button>
-                <h2 class="city"></h2>
-                <div class="temperature"></div>
-                <img class="icon"/>
-                <div class="description"></div>
-                <div class="humidity"></div>
-                <div class="wind"></div>
-            </div>
+    <div class="col col-lg-10 col-xxl-8 mx-lg-auto mx-4">
+      <div class="row justify-content-around">
+        <div class="col-3 search-container shadow py-3">
+          <h2>Search:</h2>
+          <div class="input-group mb-3">
+              <input id="city-search" type="text" class="form-control" placeholder="Columbus" aria-label="Enter city name">
+              <div class="input-group-append">
+                  <button id="search-btn" class="btn btn-primary" type="button">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+              </div>
+          </div>
+          <hr>
+          <div id="search-history">
+              <!-- previous search history container -->
+              <div class="col-12 city-history-list">
+                
+              </div>
+          </div>
         </div>
-
-
-        <div class="weather-container">
-            
-            <div class="weather">
-        
-    </aside>
-
+        <!-- weather results container -->
+        <div class="col-8">
+          <!--current weather container -->
+          <div class="row shadow mb-4">
+            <div class="col-12">
+              <div id="today-container" class="row align-items-center">
+                <div class="col-4 date-block py-4">
+                  <p id="todays-date" class="px-2">Today</p>
+                  <h2 id="current-city"></h2>
+                </div>
+                <div class="col-4 text-center">
+                  <h2 id="temp"></h2>
+                  <p id="wind"></p>
+                  <p id="high-low" class="mb-0"></p>
+                </div>
+                <div class="col-4 text-center">
+                  <img id="weather-icon" src="" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- five day forecast container -->
+          <div class="row shadow">
+            <div class="col-12">
+              <div id="fiveday-forecast" class="row align-items-center justify-content-around py-4">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+    <script src="https://kit.fontawesome.com/ced0ff2264.js" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
