@@ -34,15 +34,19 @@ The weather will be displayed and if you would like to remove that city from you
 [![UnsplashAPI](https://img.shields.io/badge/UNSPLASH-API-yellow)](https://unsplash.com/developers)
 
 ## Installation
-
+Clone the repository
 
 ## Contribution
 Currently there are no contributions being taken.
 
 ## Resources
+Screenshot:
+<img src="assets/images/Screenshot.png">
+
 Deployed Site:
 https://christianmsm.github.io/06-Server-Side-API-Weather-Dashboard-Challenge/
 
+API's:
 https://openweathermap.org/forecast5#5days
 https://unsplash.com/developers
 
@@ -53,7 +57,6 @@ https://github.com/Christianmsm/06-Server-Side-API-Weather-Dashboard-Challenge
 hello@itschristiansmith.com
 ## License
 [![MIT](https://img.shields.io/badge/MIT-License-red)](https://opensource.org/license/mit/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Copyright (c) 2023 Christianmsm
 
